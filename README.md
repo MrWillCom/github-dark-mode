@@ -2,27 +2,9 @@
 
 The Dark Mode for GitHub.com
 
-<html>
-<body>
-  <style>
-    @keyframes aniBefore {
-      0% { opacity: 1 }
-      100% { opacity: 0 }
-    }
-    .before, .after {
-        position: relative;
-        top: 0;
-    }
-    .before {
-      transform: translateY(-100%);
-      animation: aniBefore 2.5s;
-      animation-fill-mode: forwards;
-    }
-  </style>
-  <img src="./screenshots/screenshot-1.png" class="after">
-  <img src="./screenshots/screenshot-0.png" class="before">
-</body>
-</html>
+![The original light theme](./screenshots/screenshot-0.png)
+
+![When dark mode is on](./screenshots/screenshot-1.png)
 
 ## Installation
 
