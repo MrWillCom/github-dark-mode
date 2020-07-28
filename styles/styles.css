@@ -325,4 +325,84 @@
     .signed-commit-badge-large, .signed-commit-badge-medium, .signed-commit-badge-small {
         border: 1px solid #6b6c71;
     }
+    .markdown-body img {
+        background-color: transparent;
+    }
+    .blob-code-inner {
+        color: #dce6f1;
+    }
+    .breadcrumb strong.final-path {
+        color: #d8e2ec;
+    }
+    .markdown-body table tr {
+        background-color: #2f3031;
+    }
+    .orghead {
+        background-color: #24292e;
+    }
+    .Label--gray, .Label--outline {
+        border-color: #768084;
+    }
+    .select-menu-filters, .select-menu-header {
+        background-color: #323435;
+        border-bottom: 1px solid #424346;
+    }
+    .select-menu-modal {
+        color: #d8e2ec;
+        background-color: #323435;
+        border: 1px solid #424346;
+        box-shadow: 0 8px 24px rgb(54 58 62 / 20%);
+    }
+    .select-menu-divider, .select-menu-header .select-menu-title {
+        color: #d8e2ec;
+    }
+    .select-menu-item {
+        background-color: #2c2e2f;
+        border-bottom: 1px solid #424346;
+    }
+    .select-menu-item.selected, details-menu .select-menu-item[aria-checked=true], details-menu .select-menu-item[aria-selected=true] {
+        color: #68b4ff;
+    }
+    .select-menu-item.navigation-focus, .select-menu-item.navigation-focus .description-inline, .select-menu-item.navigation-focus.select-menu-action, .select-menu-item.navigation-focus.selected, .select-menu-item.navigation-focus[aria-checked=true], .select-menu-item:focus, .select-menu-item:focus .description-inline, .select-menu-item:focus.select-menu-action, .select-menu-item:focus.selected, .select-menu-item:hover, .select-menu-item:hover .description-inline, .select-menu-item:hover.select-menu-action, .select-menu-item:hover.selected, .select-menu-item[aria-checked=true]:focus, .select-menu-item[aria-checked=true]:hover, .select-menu-item[aria-selected=true] .description-inline, .select-menu-item[aria-selected=true].select-menu-action, .select-menu-item[aria-selected=true]:focus, .select-menu-item[aria-selected=true]:hover {
+        background-color: #054690;
+    }
+    .menu {
+        background-color: #2c2e2f;
+        border: 1px solid #45474a;
+    }
+    .menu-heading {
+        color: #d8e2ec;
+        border-bottom: 1px solid #45474a;
+    }
+    .menu-item {
+        color: #c6d1dc;
+    }
+    .table-list {
+        border-bottom: 1px solid #424346;
+    }
+    .menu-item:focus, .menu-item:hover {
+        background-color: #34393c;
+    }
+    .Header {
+        color: hsl(0deg 0% 0% / 70%);
+    }
+    .header-search-current .header-search-wrapper.focus {
+        background-color: hsl(0deg 0% 0% / 18%);
+    }
+    .header-search-current .jump-to-field-active {
+        color: #d8e2ec!important;
+        background-color: #373a3e;
+    }
+    .header-search-current .jump-to-suggestions-results-container .navigation-item {
+        border-bottom: 1px solid #424346;
+    }
+    .header-search-current .jump-to-suggestions-path {
+        color: #d8e2ec;
+    }
+    .header-search-current .jump-to-suggestions-results-container .navigation-focus .jump-to-suggestions-path, .header-search-current .jump-to-suggestions-results-container [aria-selected=true] .jump-to-suggestions-path {
+        background: #054690;
+    }
+    .rule, hr {
+        border-bottom: 1px solid #424346;
+    }
 }
