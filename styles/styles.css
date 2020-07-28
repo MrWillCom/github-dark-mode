@@ -315,4 +315,14 @@
     .Box-row--hover-gray:hover {
         background-color: #323435;
     }
+    .TimelineItem--condensed .TimelineItem-badge {
+        background-color: #404242;
+        border-radius: 32px;
+    }
+    .TimelineItem:before {
+        background-color: #424346;
+    }
+    .signed-commit-badge-large, .signed-commit-badge-medium, .signed-commit-badge-small {
+        border: 1px solid #6b6c71;
+    }
 }
