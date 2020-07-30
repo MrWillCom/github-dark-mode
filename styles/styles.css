@@ -168,7 +168,7 @@
     .ajax-pagination-form .ajax-pagination-btn {
         color: #6aaaf3;
         background: #24292e;
-        border: 1px solid #424346;
+        border: 1px solid #424346!important;
     }
     .ajax-pagination-form .ajax-pagination-btn:focus, .ajax-pagination-form .ajax-pagination-btn:hover {
         color: #6aaaf3;
@@ -330,7 +330,7 @@
         color: #d8e2ec;
     }
     .markdown-body table tr {
-        background-color: #2f3031;
+        background-color: #1f2327;
     }
     .orghead {
         background-color: #24292e;
@@ -371,6 +371,7 @@
     }
     .menu-item {
         color: #c6d1dc;
+        border-color: #424346;
     }
     .table-list {
         border-bottom: 1px solid #424346;
@@ -514,5 +515,101 @@
     }
     .pl-c1, .pl-s .pl-v {
         color: #3f91ef;
+    }
+    .subnav-link.selected {
+        color: #d8e2ec!important;
+    }
+    .subnav-link {
+        color: #b6c0ca;
+    }
+    .box-shadow-medium {
+        box-shadow: 0 3px 6px rgb(31 35 39 / 0.15)!important;
+    }
+    .tabnav {
+        border-color: #424346;
+    }
+    .Box-footer {
+        border-color: #424346;
+    }
+    .box-shadow-large {
+        box-shadow: 0 8px 24px rgb(31 35 39 / 0.2)!important;
+    }
+    .Popover-message--bottom-left:after, .Popover-message--bottom-right:after, .Popover-message--bottom:after {
+        border-top-color: #24292e;
+    }
+    .TimelineItem-break {
+        background-color: #1f2327;
+        border-color: #424346;
+    }
+    .page-responsive .previewable-comment-form .comment-form-head.tabnav .toolbar-commenting {
+        background: #1f2327;
+    }
+    .bg-blue-light {
+        background-color: #1b3752!important;
+    }
+    .setup-info-module {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .setup-info-module h2 {
+        border-color: #424346;
+    }
+    .setup-header {
+        border-color: #424346;
+    }
+    .setup-header .lead {
+        color: #a9b0b7;
+    }
+    .note {
+        color: #a9b0b7;
+    }
+    .select-menu-text-filter input {
+        border-color: #424346;
+    }
+    .select-menu-text-filter:first-child:last-child {
+        border-color: #424346;
+    }
+    .subnav-link:hover {
+        color: #a9b0b7;
+    }
+    .Subhead {
+        border-color: #424346;
+    }
+    mark {
+        color: #aed6ff;
+    }
+    .filter-item {
+        color: #a9b0b7;
+    }
+    .markdown-body table td, .markdown-body table th {
+        border-color: #424346;
+    }
+    .markdown-body table tr:nth-child(2n) {
+        background-color: #24292e;
+    }
+    .markdown-body hr {
+        background-color: #424346;
+    }
+    .codesearch-results .repo-list-item+.repo-list-item {
+        border-top: 1px solid #424346;
+    }
+    .pagination a, .pagination em, .pagination span {
+        color: #d8e2e6;
+    }
+    .site-subnav-sticky {
+        background-color: rgb(31 35 39 / 0.8)!important;
+        backdrop-filter: blur(16px);
+    }
+    .fade-img-to-white-bg:before {
+        background: linear-gradient(180deg, #1f2327 0, hsl(210 11% 14% / 0));
+    }
+    .fade-img-to-white-bg:after {
+        background: linear-gradient(0deg, #1f2327 0, hsl(210 11% 14% / 0));
+    }
+    .Box-row--gray {
+        background-color: #24292e;
+    }
+    .pinned-item-name {
+        color: #d8e2ec;
     }
 }
