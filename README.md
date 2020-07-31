@@ -15,4 +15,5 @@ To install the extenstion, you need to keep "Developer mode" of your browser is 
 3. Click "Load Unpacked" button.
 4. Select the cloned repository and confirm.
 5. Turn on the added extension "GitHub Dark Mode".
-6. Refresh the opened GitHub.com tabs.
+6. Turn on the system control dark mode.
+7. Refresh the opened GitHub.com tabs.

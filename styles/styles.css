@@ -612,4 +612,8 @@
     .pinned-item-name {
         color: #d8e2ec;
     }
+    .pinned-item-checkbox:checked+.pinned-item-name {
+        color: #6aaaf3;
+        background-color: #24292e;
+    }
 }
