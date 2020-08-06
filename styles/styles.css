@@ -32,7 +32,7 @@
         background-color: #1f2327;
     }
     .signup-prompt-bg {
-        background-image: linear-gradient(180deg, hsl(0deg 0% 0% / 0%) 50%, #000), linear-gradient(70deg, #1f2123 32%, #2e312f);
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #151515), linear-gradient(70deg, #1a1f23 32%, #202721);
     }
     .link-gray {
         color: #7f8b98!important;
@@ -198,6 +198,9 @@
         .SelectMenu-modal {
             border: 1px solid #424346;
             box-shadow: 0 8px 24px rgb(54 58 62 / 20%);
+        }
+        .project-header {
+            background-color: #1f2327;
         }
     }
     .SelectMenu-modal {
@@ -615,5 +618,220 @@
     .pinned-item-checkbox:checked+.pinned-item-name {
         color: #6aaaf3;
         background-color: #24292e;
+    }
+    .tabnav-pr .tabnav-tab {
+        color: #b8c1cc;
+    }
+    .tabnav-pr .tabnav-tab.selected {
+        color: #d8e2ec;
+        border-color: #424346;
+    }
+    .TimelineItem-body {
+        color: #d8e2ec;
+    }
+    .thread-subscription-status {
+        background-color: #1f2327;
+    }
+    .discussion-sidebar-heading {
+        color: #d8e2ec;
+    }
+    .discussion-sidebar-item {
+        color: #b2bcc5;
+    }
+    .branch-action-body {
+        background-color: #24292e;
+    }
+    .branch-action-state-clean .branch-action-body {
+        border-color: #2b6538;
+    }
+    .merge-status-list {
+        border-color: #424346;
+    }
+    .merge-status-item {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .text-emphasized {
+        color: #b2bcc5;
+    }
+    .status-meta {
+        color: #b2bcc5;
+    }
+    .branch-action-body .merge-branch-form, .branch-action-body .merge-message {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .btn-link {
+        color: #6aaaf3;
+    }
+    .previewable-comment-form .comment-form-head.tabnav {
+        background: #24292e;
+    }
+    .timeline-comment-label {
+        border-color: #424346;
+    }
+    .timeline-comment--caret:before {
+        border-right-color: #424346;
+    }
+    .timeline-comment--caret:after {
+        border-right-color: #24292e;
+    }
+    .diffbar {
+        background-color: #1f2327;
+    }
+    .blob-num-expandable, .blob-num-hunk {
+        background-color: #24292e;
+    }
+    .blob-code-hunk {
+        background-color: #24292e;
+    }
+    .blob-num-addition {
+        background-color: #2f4032;
+        border-color: #2f4032;
+    }
+    .blob-code-addition {
+        background-color: #2f4032;
+    }
+    .blob-num {
+        color: rgb(199 227 255 / 30%);
+    }
+    .blob-num-deletion {
+        background-color: #483f40;
+        border-color: #483f40;
+    }
+    .blob-code-deletion {
+        background-color: #483f40;
+    }
+    .pr-toolbar.is-stuck {
+        background-color: #1f2327;
+    }
+    .commit-ref {
+        background-color: #274466;
+    }
+    .timeline-comment.current-user .timeline-comment-header {
+        background-color: #24292e;
+        border-bottom-color: #424346;
+    }
+    .timeline-comment.current-user {
+        border-color: #424346;
+    }
+    .branch-action-body, .branch-action-state-closed-dirty .branch-action-body, .branch-action-state-dirty .branch-action-body, .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-body {
+        border-color: #424346;
+    }
+    .branch-action-item+.branch-action-item, .branch-action-item+.mergeability-details {
+        border-color: #424346;
+    }
+    .btn.disabled, .btn:disabled, .btn[aria-disabled=true] {
+        color: #d8e2ec;
+        background-color: #292f35;
+    }
+    .discussion-timeline.team-discussion-timeline .blankslate {
+        background: #24292e;
+    }
+    .range-editor {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .file-diff-split .blob-code+.blob-num {
+        border-color: #424346;
+    }
+    .table-list-header {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .table-list {
+        border-color: #424346;
+    }
+    .table-list-bordered .table-list-cell:first-child {
+        border-color: #424346;
+    }
+    .table-list-bordered .table-list-cell:last-child {
+        border-color: #424346;
+    }
+    .table-list-cell {
+        border-color: #424346;
+    }
+    .orgs-help-shelf {
+        border-color: #424346;
+    }
+    .orgs-help-item-octicon {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .review-thread-reply {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .discussion-post .timeline-inline-comments {
+        background: transparent;
+    }
+    .task-progress .progress-bar {
+        background-color: #424346;
+    }
+    .markdown-body blockquote {
+        border-color: #424346;
+    }
+    .review-thread-reply {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .TimelineItem-badge {
+        color: #d8e2ec;
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .review-comment .reaction-summary-item:not(.add-reaction-btn) {
+        border-color: #424346;
+    }
+    .copyable-terminal {
+        background-color: #1f2327;
+    }
+    .review-thread-reply .inline-comment-form {
+        background-color: #24292e;
+    }
+    .form-group.errored .error {
+        background-color: #463434;
+        border-color: #77454b;
+    }
+    .home-enterprise-wrapper:before {
+        background-color: #2b3137;
+    }
+    .timeline-comment--caret.current-user:before {
+        border-right-color: #424346;
+    }
+    .timeline-comment--caret.current-user:after {
+        border-right-color: #24292e;
+    }
+    .timeline-comment.current-user .timeline-comment-label {
+        border-color: #424346;
+    }
+    .project-column {
+        background-color: #24292E;
+    }
+    .project-card:hover {
+        border-color: #727479!important;
+    }
+    .comment-reactions.has-reactions {
+        border-color: #424346;
+    }
+    .reaction-summary-item {
+        border-color: #424346;
+    }
+    .project-pane {
+        background-color: rgba(36, 41, 46, 0.8)!important;
+        backdrop-filter: blur(16px);
+        box-shadow: none;
+    }
+    .project-issue-body-blur {
+        background: linear-gradient(0deg, #23282d, hsl(210deg 12% 16% / 0%));
+    }
+    .comment-reactions.has-reactions {
+        border-color: #424346;
+    }
+    .comment-reactions .user-has-reacted {
+        background-color: #24292e;
+    }
+    .reaction-summary-item {
+        border-color: #424346;
     }
 }
