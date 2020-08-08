@@ -31,3 +31,25 @@ To install the extenstion, you need to keep "Developer mode" of your browser is 
 5. Turn on the added extension "GitHub Dark Mode".
 6. Turn on the system control dark mode.
 7. Refresh the opened GitHub.com tabs.
+
+## Development
+
+If you want to develop this extension, you need to add the style sheets at the end of [styles.css](./styles/styles.css).
+
+styles.css lokks like this:
+
+```css
+@media (prefers-color-scheme: dark) {
+    ... {
+        ...
+    }
+    ... {
+        ...
+    }
+    /* Your new style sheets here. */
+}
+```
+
+## Contributing
+
+If you found something wrong when you are using this extension, just [submit an issue](https://github.com/MrWillCom/github-dark-mode/issues/new).
