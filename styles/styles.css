@@ -304,8 +304,9 @@
     }
     .flash {
         color: #afcae4;
-        background-color: #273a4e;
+        background-color: rgba(39, 58, 78, .8);
         border-color: rgba(4, 66, 137, .2);
+        backdrop-filter: blur(16px);
     }
     .form-group .form-control:focus {
         background-color: #24292e;
@@ -314,8 +315,10 @@
         background-color: #2b3035;
     }
     .TimelineItem--condensed .TimelineItem-badge {
-        background-color: #404242;
+        background-color: #24292e;
         border-radius: 32px;
+        border: 2px solid #424346;
+        color: #d8e2ec;
     }
     .TimelineItem:before {
         background-color: #424346;
@@ -833,5 +836,46 @@
     }
     .reaction-summary-item {
         border-color: #424346;
+    }
+    .full-commit {
+        background: #24292e;
+        border-color: #424346;
+    }
+    .full-commit p.commit-title {
+        color: #acc3da;
+    }
+    .full-commit .commit-meta {
+        background: #1f2327;
+        border-color: #424346;
+    }
+    .commit-sha {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .thread-subscription-status {
+        border-color: #424346;
+    }
+    .upload-enabled textarea {
+        border-color: #424346;
+    }
+    @media (min-width: 768px) {
+        .border-md-top {
+            border-color: #424346!important;
+        }
+    }
+    .discussion-post .reply-comment:first-child {
+        border-color: #424346;
+    }
+    .discussion-post .reply-comments-holder:before {
+        background-color: #424346;
+    }
+    .review-comment {
+        color: #d8e2ec;
+    }
+    .notifications-list-item.notification-unread {
+        background-color: #24292e;
+    }
+    .notifications-list-item.notification-unread .notification-list-item-link {
+        color: #d8e2ec!important;
     }
 }
