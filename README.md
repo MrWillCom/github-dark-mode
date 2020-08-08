@@ -32,7 +32,7 @@ To install the extenstion, you need to keep "Developer mode" of your browser is 
 6. Turn on the system control dark mode.
 7. Refresh the opened GitHub.com tabs.
 
-## Development
+## Contributing
 
 If you want to develop this extension, you need to add the style sheets at the end of [styles.css](./styles/styles.css).
 
@@ -50,6 +50,14 @@ styles.css lokks like this:
 }
 ```
 
-## Contributing
-
 If you found something wrong when you are using this extension, just [submit an issue](https://github.com/MrWillCom/github-dark-mode/issues/new).
+
+### Scripts
+
+Here is some scripts to help you develop this extension, they supports PowerShell only(still developing).
+
+- [`build`](./scripts/build.ps1) - Pack extension to a ZIP file
+- [`cbuild`](./scripts/cbuild.ps1) - **Force** pack extension to a ZIP file
+- [`pack-souce-code`](./scripts/pack-souce-code.ps1) - pack all the source code to a ZIP file
+- [`cpack-souce-code`](./scripts/cpack-souce-code.ps1) - **Force** pack all the source code to a ZIP file
+- [`unzip-release`](./scripts/unzip-release.ps1) - unpack the packed release.zip
