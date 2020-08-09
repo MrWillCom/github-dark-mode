@@ -16,6 +16,7 @@ The Dark Mode for GitHub.com
 
 1. Install this extension from:
     - [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mkmlkegjpmlpmdddbibkainphcilpagm)
+    - [Firefox Browser Add-ons](https://addons.mozilla.org/addon/github-dark-mode/)
 2. Turn on the installed extension "GitHub Dark Mode".
 3. Turn on the system control dark mode.
 4. Refresh the opened GitHub.com tabs.
