@@ -1,3 +1,3 @@
 #!/bin/bash
 
-zip -r release.zip img js LICENSE manifest.json
+zip -rn release.zip img js LICENSE manifest.json
