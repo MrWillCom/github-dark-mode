@@ -55,7 +55,7 @@ If you found something wrong when you are using this extension, just [submit an 
 
 ### Scripts
 
-Here is some scripts to help you develop this extension, they supports PowerShell only(still developing).
+Here is some scripts to help you develop this extension, they supports PowerShell and Bash as well so that you can use them on all platforms.
 
 - [`build`](./scripts/build.ps1) - Pack extension to a ZIP file
 - [`cbuild`](./scripts/cbuild.ps1) - **Force** pack extension to a ZIP file
