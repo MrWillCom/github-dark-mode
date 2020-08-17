@@ -878,4 +878,22 @@
     .notifications-list-item.notification-unread .notification-list-item-link {
         color: #d8e2ec!important;
     }
+    .timeline-comment-header {
+        color: #d8e2ec;
+    }
+    .Popover-message:after {
+        border-bottom-color: #24292e;
+    }
+    .Popover-message:before {
+        border-bottom-color: #424346;
+    }
+    .file-diff-split .empty-cell {
+        background-color: #24292E;
+    }
+    .diff-table tr:not(:last-child) .line-comments {
+        border-color: #424346;
+    }
+    .inline-comment-form {
+        border-color: #424346;
+    }
 }
