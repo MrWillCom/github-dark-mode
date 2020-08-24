@@ -415,7 +415,7 @@
         color: #d8e2ec;
     }
     .tabnav-tab.selected, .tabnav-tab[aria-current]:not([aria-current=false]), .tabnav-tab[aria-selected=true] {
-        background-color: #313438;
+        background-color: #24292e;
         border-color: #424346;
     }
     .file {
@@ -894,6 +894,32 @@
         border-color: #424346;
     }
     .inline-comment-form {
+        border-color: #424346;
+    }
+    .CheckRun-header {
+        border-top-color: #424346;
+    }
+    .commit-ref {
+        color: #6aaaf3;
+    }
+    .commit-ref .user {
+        color: #6aaaf3;
+    }
+    .user-status-circle-badge {
+        background-color: #24292e;
+        border-color: #424346;
+    }
+    .session-authentication {
+        background-color: #1f2327;
+    }
+    .session-authentication .auth-form-header {
+        color: #d8e2ec;
+    }
+    .auth-form-body {
+        background-color: #24292E;
+        border-color: #424346;
+    }
+    .session-authentication .auth-form-body {
         border-color: #424346;
     }
 }
