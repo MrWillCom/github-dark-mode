@@ -63,6 +63,6 @@ Here is some scripts to help you develop this extension, they supports PowerShel
 - [`cpack-souce-code`](./scripts/cpack-souce-code.ps1) - **Force** pack all the source code to a ZIP file
 - [`unzip-release`](./scripts/unzip-release.ps1) - unpack the packed release.zip
 
-### 3rd Party Versions
+### Third Party Versions
 
 - [aeilot/github-dark-mode-safari](https://github.com/aeilot/github-dark-mode-safari)
