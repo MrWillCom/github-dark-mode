@@ -65,4 +65,4 @@ Here is some scripts to help you develop this extension, they supports PowerShel
 
 ### 3rd Party Versions
 
-- [Safari](https://github.com/aeilot/github-dark-mode-safari)
+- [aeilot/github-dark-mode-safari](https://github.com/aeilot/github-dark-mode-safari)
