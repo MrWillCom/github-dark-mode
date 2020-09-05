@@ -922,4 +922,13 @@
     .session-authentication .auth-form-body {
         border-color: #424346;
     }
+    .subnav-bordered {
+        border-color: #424346;
+    }
+    .org-user-notice-content strong {
+        color: #fff;
+    }
+    .markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 .octicon-link, .markdown-body h6 .octicon-link {
+        color: #c7d2de;
+    }
 }
