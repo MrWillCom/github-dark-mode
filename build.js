@@ -11,7 +11,7 @@ const release = `// The entrance of the extension, will run when \`document\` is
         var body = document.body;
         var style = document.createElement('style');
         // Set \`style.innerHTML\` to the compressed [CSS](../styles/styles.css).
-        style.innerHTML = \`\`\`${styles}\`\`\`;
+        style.innerHTML = \`${styles}\`;
         // Append to <body>
         body.appendChild(style);
 

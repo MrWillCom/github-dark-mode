@@ -26,12 +26,13 @@ The Dark Mode for GitHub.com
 To install the extenstion, you need to keep "Developer mode" of your browser is on then start installation.
 
 1. Clone this repository.
-2. Go to the browser's extension settings.
-3. Click "Load Unpacked" button.
-4. Select the cloned repository and confirm.
-5. Turn on the added extension "GitHub Dark Mode".
-6. Turn on the system control dark mode.
-7. Refresh the opened GitHub.com tabs.
+2. Run `npm run dev` or `node build.js` in the repository.
+3. Go to the browser's extension settings.
+4. Click "Load Unpacked" button.
+5. Select the cloned repository and confirm.
+6. Turn on the added extension "GitHub Dark Mode".
+7. Turn on the system control dark mode.
+8. Refresh the opened GitHub.com tabs.
 
 ## Contributing
 
