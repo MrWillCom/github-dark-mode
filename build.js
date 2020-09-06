@@ -35,6 +35,11 @@ const release = `// The entrance of the extension, will run when \`document\` is
             }
         }
 
+        // If at Sponsors page
+        if (window.location.href.match('https://github.com/sponsors*')) {
+            // Select the gradient cover and replace it
+            document.querySelector('[style="height: 100%; background: linear-gradient(to bottom, rgba(246,248,250,0.5) 0%,rgba(246,248,250,1) 100%);"]').setAttribute("style", "height: 100%; background: linear-gradient(to bottom, rgba(31, 35, 39, 0.5) 0%,rgba(31, 35, 39, 1) 100%);");
+        }
         console.log('GitHub Dark Mode initialized')
     } else {
         console.log("GitHub Dark Mode is off because your browser isn't in dark mode")
