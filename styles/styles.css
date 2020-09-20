@@ -823,7 +823,6 @@
     .project-pane {
         background-color: rgba(36, 41, 46, 0.8)!important;
         backdrop-filter: blur(16px);
-        box-shadow: none;
     }
     .project-issue-body-blur {
         background: linear-gradient(0deg, #23282d, hsl(210deg 12% 16% / 0%));
@@ -930,5 +929,8 @@
     }
     .markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 .octicon-link, .markdown-body h6 .octicon-link {
         color: #c7d2de;
+    }
+    .border-left {
+        border-left: 1px solid #424346!important;
     }
 }
