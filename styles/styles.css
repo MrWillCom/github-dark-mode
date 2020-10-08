@@ -933,4 +933,41 @@
     .border-left {
         border-left: 1px solid #424346!important;
     }
+    .SelectMenu-footer {
+        border-color: #424346;
+    }
+    .SelectMenu-tabs {
+        box-shadow: inset 0 -1px 0 #424346;
+    }
+    .SelectMenu-tab {
+        box-shadow: inset 0 -1px 0 #424346;
+    }
+    .SelectMenu-tab[aria-selected=true] {
+        color: #d8e2ec;
+        background-color: #24292e;
+        box-shadow: 0 0 0 1px #424346;
+    }
+    @media (min-width: 544px) {
+        .SelectMenu-tab[aria-selected=true] {
+            border-color: #424346;
+        }
+    }
+    @media (hover: hover) {
+        .SelectMenu-tab:hover {
+            color: #d8e2ec;
+        }
+    }
+    .SelectMenu-message {
+        background-color: #24292e;
+        border-bottom: 1px solid #424346;
+    }
+    .AvatarStack-body {
+        background: transparent;
+    }
+    .branch-name {
+        background-color: #274466;
+    }
+    a.branch-name {
+        color: #6aaaf3;
+    }
 }
