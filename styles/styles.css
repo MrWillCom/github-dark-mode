@@ -415,6 +415,7 @@
         color: #d8e2ec;
     }
     .tabnav-tab.selected, .tabnav-tab[aria-current]:not([aria-current=false]), .tabnav-tab[aria-selected=true] {
+        color: #d8e2ec;
         background-color: #24292e;
         border-color: #424346;
     }
@@ -969,5 +970,14 @@
     }
     a.branch-name {
         color: #6aaaf3;
+    }
+    .UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current=false]), .UnderlineNav-item[role=tab][aria-selected=true] {
+        color: #d8e2ec;
+    }
+    .tabnav-tab:focus, .tabnav-tab:hover {
+        color: #f0f7ff;
+    }
+    .UnderlineNav .Counter {
+        color: #aeb9c3;
     }
 }
