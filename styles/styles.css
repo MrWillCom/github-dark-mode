@@ -980,4 +980,9 @@
     .UnderlineNav .Counter {
         color: #aeb9c3;
     }
+    :root{
+        --color-calendar-graph-day-bg:#24292e;
+        --color-bg-primary: #1f2327;
+        --color-text-primary: #d8e2ec;
+    }
 }
