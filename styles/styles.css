@@ -988,5 +988,6 @@
         --color-bg-canvas:#24292e;
         --color-box-bg-info:#24292e;
         --color-underlinenav-text-hover: #d8e2ec;
+        --color-branch-name-link-bg:#45474a;
     }
 }
