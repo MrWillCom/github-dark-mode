@@ -985,5 +985,6 @@
         --color-bg-primary: #1f2327;
         --color-text-primary: #d8e2ec;
         --color-previewable-comment-form-bg:#24292e;
+        --color-bg-canvas:#24292e;
     }
 }
