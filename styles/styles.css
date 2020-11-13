@@ -980,4 +980,15 @@
     .UnderlineNav .Counter {
         color: #aeb9c3;
     }
+    :root{
+        --color-calendar-graph-day-bg:#24292e;
+        --color-bg-primary: #1f2327;
+        --color-text-primary: #d8e2ec;
+        --color-previewable-comment-form-bg:#24292e;
+        --color-bg-canvas:#24292e;
+        --color-box-bg-info:#24292e;
+        --color-underlinenav-text-hover: #d8e2ec;
+        --color-branch-name-link-bg:#45474a;
+        --color-box-row-blue-bg: #45474a;
+    }
 }
