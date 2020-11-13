@@ -17,7 +17,7 @@ How to use it?
 1. Install this extension
 2. Turn on the installed extension "GitHub Dark Mode".
 3. Turn on the system control dark mode.
-4. Refresh the opened GitHub.com tabs.
+4. Refresh the open GitHub.com tabs.
 
 Open Source: https://github.com/MrWillCom/github-dark-mode
 
@@ -40,6 +40,6 @@ How to use it?
 1. Install this extension
 2. Turn on the installed extension "GitHub Dark Mode".
 3. Turn on the system control dark mode.
-4. Refresh the opened GitHub.com tabs.
+4. Refresh the open GitHub.com tabs.
 
 Open Source: https://github.com/MrWillCom/github-dark-mode

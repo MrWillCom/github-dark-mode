@@ -19,7 +19,7 @@ The Dark Mode for GitHub.com
     - [Firefox Browser Add-ons](https://addons.mozilla.org/addon/github-dark-mode/)
 2. Turn on the installed extension "GitHub Dark Mode".
 3. Turn on the system control dark mode.
-4. Refresh the opened GitHub.com tabs.
+4. Refresh the open GitHub.com tabs.
 
 ### Form Source Code
 
@@ -32,7 +32,7 @@ To install the extenstion, you need to keep "Developer mode" of your browser is 
 5. Select the cloned repository and confirm.
 6. Turn on the added extension "GitHub Dark Mode".
 7. Turn on the system control dark mode.
-8. Refresh the opened GitHub.com tabs.
+8. Refresh the open GitHub.com tabs.
 
 ## Contributing
 
