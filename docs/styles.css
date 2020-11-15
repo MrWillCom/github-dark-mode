@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-primary);
+    font-size: 16px;
+}
+
+:root {
+    --color-text-primary: #24292E;
+    --color-text-secondary: #586069;
+    --color-bg-primary: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text-primary: #d8e2ec;
+        --color-text-secondary: #99a6b5;
+        --color-bg-primary: #1f2327;
+    }
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.grid-center {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    text-align: center;
+}
+
+.cover img {
+    box-shadow: 0 12px 36px #1f232720;
+}
+
+.cover h1 {
+    margin: 8px;
+}
+
+.cover p {
+    margin: 4px;
+    color: var(--color-text-secondary);
+}
+
+.before-after .text {
+    width: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.before-after img {
+    width: 100%;
+    display: block;
+}
+
+.before-after .after {
+    clip-path: inset(0 0 0 0);
+    transform: translate(0, -100%);
+}
+
+.before-after .text-before, .before-after .text-after {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 0;
+    padding-left: 4px;
+}
+
+.before-after .text-after {
+    padding-left: 8px;
+    border-left: solid 1px #424346;
+}
