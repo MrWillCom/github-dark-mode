@@ -26,6 +26,8 @@
         --color-btn-bg: #24292e;
         --color-btn-hover-bg: #323940;
         --color-btn-selected-bg: #505b67;
+        --color-box-header-blue-bg: #1a334c;
+        --color-box-header-blue-border: #27496b;
         /* --color-input- */
         --color-input-bg: #24292e;
         --color-input-contrast-bg: #24292e;
@@ -67,5 +69,11 @@
         --color-calendar-graph-day-bg: #24292e;
         /* --color-previewable- */
         --color-previewable-comment-form-bg: #24292e;
+        /* --color-verified- */
+        --color-verified-badge-bg: #24292e;
+        --color-verified-badge-border: #424346;
+    }
+    .navigation-focus .AvatarStack-body, [aria-selected=true] .AvatarStack-body {
+        background: transparent;
     }
 }
