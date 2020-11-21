@@ -96,10 +96,33 @@
         /* --color-shadow- */
         --color-shadow-large: #1f2327 0px 8px 24px;
     }
+    /* others */
     .navigation-focus .AvatarStack-body, [aria-selected=true] .AvatarStack-body {
         background: transparent;
     }
     .signup-prompt-bg {
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #151515), linear-gradient(70deg, #1a1f23 32%, #202721);
+    }
+    /* code highlight */
+    .pl-k {
+        color: #f97583;
+    }
+    .pl-c1, .pl-s .pl-v {
+        color: #79b8ff;
+    }
+    .pl-pds, .pl-s, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre {
+        color: #79b8ff;
+    }
+    .pl-ent {
+        color: #85e89d;
+    }
+    .pl-c {
+        color: #6a737d;
+    }
+    .pl-e, .pl-en {
+        color: #b392f0;
+    }
+    .pl-s .pl-s1, .pl-smi {
+        color: #f97583;
     }
 }
