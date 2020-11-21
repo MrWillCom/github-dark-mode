@@ -38,7 +38,7 @@ To install the extenstion, you need to keep "Developer mode" of your browser is 
 
 If you want to develop this extension, you need to add the style sheets at the end of [styles.css](./styles/styles.css).
 
-styles.css lokks like this:
+styles.css looks like this:
 
 ```css
 @media (prefers-color-scheme: dark) {
