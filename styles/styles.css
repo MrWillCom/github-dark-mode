@@ -1,7 +1,4 @@
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #1f2327;
-    }
     :root {
         /* --color-text- */
         --color-text-primary: #d8e2ec;
