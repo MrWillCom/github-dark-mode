@@ -65,6 +65,7 @@
         /* --color-topic- */
         --color-topic-tag-text: var(--color-text-link);
         --color-topic-tag-bg: #292e33;
+        --color-topic-tag-hover-bg: #34383e;
         /* --color-timeline- */
         --color-timeline-badge-bg: #24292e;
         --color-timeline-text: #99a6b5;
