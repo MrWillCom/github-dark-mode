@@ -23,7 +23,7 @@ The Dark Mode for GitHub.com
 
 ### Form Source Code
 
-To install the extenstion, you need to keep "Developer mode" of your browser is on then start installation.
+To install the extension, you need to keep "Developer mode" of your browser is on then start installation.
 
 1. Clone this repository.
 2. Run `npm run dev` or `node build.js` in the repository.
