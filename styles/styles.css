@@ -99,6 +99,7 @@
         --color-menu-heading-text: var(--color-text-primary);
         /* --color-markdown- */
         --color-markdown-table-tr-border: var(--color-border-primary);
+        --color-markdown-table-border: var(--color-border-primary);
     }
     /* others */
     .navigation-focus .AvatarStack-body, [aria-selected=true] .AvatarStack-body {
