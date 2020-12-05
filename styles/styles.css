@@ -106,6 +106,13 @@
         --color-alert-warn-bg: #484119;
         --color-alert-warn-text: #d8e2ec;
     }
+    /* restore colors for dark background elements */
+    .js-selected-check-run {
+        --color-auto-gray-2: #e1e4e8;
+        --color-auto-gray-3: #d8e2ec;
+        --color-auto-gray-7: #424346;
+        --color-auto-gray-8: #2f363d;
+        --color-auto-gray-9: #24292e;
     }
     /* others */
     .navigation-focus .AvatarStack-body, [aria-selected=true] .AvatarStack-body {
