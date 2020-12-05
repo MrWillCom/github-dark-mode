@@ -100,6 +100,12 @@
         /* --color-markdown- */
         --color-markdown-table-tr-border: var(--color-border-primary);
         --color-markdown-table-border: var(--color-border-primary);
+        /* --color-alert */
+        --color-alert-info-bg: #1c2a38;
+        --color-alert-info-text: #d8e2ec;
+        --color-alert-warn-bg: #484119;
+        --color-alert-warn-text: #d8e2ec;
+    }
     }
     /* others */
     .navigation-focus .AvatarStack-body, [aria-selected=true] .AvatarStack-body {
