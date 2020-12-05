@@ -13,8 +13,9 @@
         --color-bg-info: var(--color-bg-primary);
         --color-bg-canvas: var(--color-bg-secondary);
         --color-bg-canvas-inset: var(--color-bg-primary);
+        --color-bg-warning-inverse: #715d19;
         /* --color-border- */
-        --color-border-primary: #424346;
+        --color-border-primary: #303942;
         --color-border-secondary: var(--color-border-primary);
         --color-border-tertiary: #5e5f63;
         --color-border-overlay: var(--color-border-primary);
@@ -33,7 +34,7 @@
         --color-input-border: var(--color-border-primary);
         /* --color-box- */
         --color-box-bg-info: var(--color-bg-secondary);
-        --color-box-row-blue-bg: #45474a;
+        --color-box-row-blue-bg: #2f363d;
         --color-box-header-blue-bg: #1a334c;
         --color-box-header-blue-border: #27496b;
         /* --color-underlinenav- */
