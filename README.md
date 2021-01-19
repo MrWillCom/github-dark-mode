@@ -1,3 +1,13 @@
+**This project is archived.**
+
+Since GitHub published its own dark mode, this project became useless. So I archived this project.
+
+[This project will soon be archived #8](https://github.com/MrWillCom/github-dark-mode/issues/8)
+
+Also, the new **[GitHub Enhancing](https://github.com/MrWillCom/github-enhancing)** extension is published.
+
+---
+
 # GitHub Dark Mode
 
 The Dark Mode for GitHub.com
